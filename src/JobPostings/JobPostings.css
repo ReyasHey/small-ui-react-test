@@ -1,0 +1,35 @@
+.post {
+    background-color: #202020;
+    color: #4d4d4d;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+h3 {
+    white-space: nowrap;
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #ffffff;
+    height: 1.5em;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+
+    border: solid 3px #4d4d4d;
+    border-radius: 15px 15px 0 0;
+}
+
+header > * {
+    margin: 0;
+}
+
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+
+    color: #ffffff;
+}
